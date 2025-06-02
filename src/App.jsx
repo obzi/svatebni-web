@@ -93,7 +93,7 @@ export default function App() {
 				{/* Menu */}
 				<nav className="sticky top-0 z-10 bg-white bg-opacity-90 shadow mb-6 mt-8 rounded-xl backdrop-blur">
 				<div className="flex items-center justify-between p-4">
-					<h1 className="text-xl font-serif text-[#5A3E36]">Verča & Tomáš</h1>
+					<h1 className="text-xl font-serif text-[#5A3E36]">Svatba Verča & Tomáš</h1>
 					<button
 					className="md:hidden"
 					onClick={() => setMenuOpen(!menuOpen)}
@@ -127,9 +127,9 @@ export default function App() {
 				)}
 				</nav>
 
-				<section id="onas" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
+				<section id="onas" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
 				  <h2 className="text-2xl font-serif text-[#5A3E36]">O nás</h2>
-				  <Card className="bg-gray-100">
+				  <Card className="bg-gray-200">
 					<CardContent className="bg-gray-100 p-6 pt-6 rounded-xl space-y-4">
 						<img
 							src="./images/tom_veru.jpeg"
@@ -143,10 +143,10 @@ export default function App() {
 				  </Card>
 				</section>
 
-				<section id="misto" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
+				<section id="misto" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
 				  <h2 className="text-2xl font-serif text-[#5A3E36]">Místo konání</h2>
-				  <Card className="bg-gray-100">
-					<CardContent className="p-6 space-y-4 pt-6 bg-gray-100 rounded-xl">
+				  <Card className="bg-gray-200">
+					<CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
 					  <p>
 						Svatba se koná na krásném a klidném místě s romantickou atmosférou – v <strong>Dohnalově mlýně</strong> v Zástřizlech.
 						Tento mlýn obklopený přírodou je jako stvořený pro svatbu snů. 💐
@@ -169,10 +169,10 @@ export default function App() {
 				  </Card>
 				</section>
 				
-				<section id="formular" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
+				<section id="formular" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
 				  <h2 className="text-2xl font-serif text-[#5A3E36]">Potvrď svou účast</h2>
-				  <Card className="bg-gray-100">
-					<CardContent className="p-6 bg-gray-100 rounded-xl space-y-4">
+				  <Card className="bg-gray-200">
+					<CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
 					  <p>
 						Prosíme o vyplnění formuláře – abychom věděli, s kým máme počítat a co připravit.
 						Zvládnete to za minutku. ❤
@@ -193,10 +193,10 @@ export default function App() {
 				</section>
 
 				
-				<section id="dresscode" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
+				<section id="dresscode" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-[#5A3E36]">Dresscode</h2>
-				<Card className="bg-gray-100">
-				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-100 rounded-xl">
+				<Card className="bg-gray-200">
+				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
 					<p>
 					  Naše svatba se ponese v duchu lehké elegance a pohodové atmosféry. Prosíme vás proto
 					  o světlé barvy v casual stylu. Dámy mohou sáhnout po jemných pastelových tónech, třeba
@@ -218,10 +218,10 @@ export default function App() {
 				</Card>
 				</section>
 
-				<section id="harmonogram" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
+				<section id="harmonogram" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-[#5A3E36]">Harmonogram dne</h2>
-				<Card className="bg-gray-100">
-				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-100 rounded-xl">
+				<Card className="bg-gray-200">
+				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
 					<ul className="list-disc list-inside space-y-1">
 					  <li><strong>11:00</strong> – Příjezd hostů, vítání, welcome drink</li>
 					  <li><strong>12:00</strong> – Obřad pod širým nebem</li>
@@ -235,10 +235,10 @@ export default function App() {
 				</Card>
 				</section>
 
-				<section id="ubytovani" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
+				<section id="ubytovani" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-[#5A3E36]">Ubytování</h2>
-				<Card className="bg-gray-100">
-				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-100 rounded-xl">
+				<Card className="bg-gray-200">
+				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
 					<p>
 					  V Dohnalově mlýně bude k dispozici omezený počet míst pro přespání. Pokud máte zájem o ubytování, uveďte to prosím ve formuláři níže. 
 					  <br/>
@@ -253,10 +253,10 @@ export default function App() {
 				</Card>
 				</section>
 				
-				<section id="parkovani" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
+				<section id="parkovani" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-[#5A3E36]">Parkování</h2>
-				<Card className="bg-gray-100">
-					<CardContent className="p-6 space-y-4 pt-6 bg-gray-100 rounded-xl">
+				<Card className="bg-gray-200">
+					<CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
 					  <p>
 						Před areálem Dohnalova mlýna můžete pohodlně zaparkovat přímo u cesty. K dispozici je také rozlehlá louka, kde je dostatek místa pro auta všech hostů – a to bez nutnosti dlouhého hledání parkovacího místa.
 					  </p>
@@ -269,10 +269,10 @@ export default function App() {
 				</Card>
 				</section>
 				
-				<section id="fotky" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
+				<section id="fotky" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-[#5A3E36]">Sdílej fotky z našeho dne</h2>
-					<Card className="bg-gray-100">
-						<CardContent className="p-6 space-y-4 pt-6 bg-gray-100 rounded-xl">
+					<Card className="bg-gray-200">
+						<CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
 							<p>
 							Fotky od fotografa budou krásné, ale ty nejúžasnější momentky často vznikají z rukou vás – našich hostů. Sdílet můžete nejen fotky, ale i videa. Na oplátku se s vámi rádi podělíme o ty oficiální.
 							<br/>
@@ -282,10 +282,10 @@ export default function App() {
 					</Card>
 				</section>
 
-				<section id="dary" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
+				<section id="dary" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-[#5A3E36]">Dary</h2>
-				<Card className="bg-gray-100">
-				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-100 rounded-xl">
+				<Card className="bg-gray-200">
+				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
 					<p>
 					  Největším darem pro nás je vaše přítomnost a to, že s námi prožijete tento den.
 					</p>
@@ -299,10 +299,10 @@ export default function App() {
 				</Card>
 				</section>
 
-				<section id="kontakty" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
+				<section id="kontakty" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
 					<h2 className="text-2xl font-serif text-[#5A3E36]">Kontakty</h2>
-					<Card className="bg-gray-100">
-						<CardContent className="p-6 space-y-4 pt-6 bg-gray-100 rounded-xl">
+					<Card className="bg-gray-200">
+						<CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
 							<p>Máte otázku, něco vám není jasné, nebo jste něco nenašli na webu či ve formuláři?</p>
 							<p>Ozvěte se nám kdykoliv:</p>
 							<ul className="list-disc list-inside">
