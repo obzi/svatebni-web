@@ -175,36 +175,23 @@ export default function App() {
 					<CardContent className="p-6 bg-gray-100 rounded-xl space-y-4">
 					  <p>
 						Prosíme o vyplnění formuláře – abychom věděli, s kým máme počítat a co připravit.
-						Zvládnete to za minutku. ❤️
+						Zvládnete to za minutku. ❤
 					  </p>
-
-					  <iframe
-						src="https://tally.so/r/wAGQNy?transparentBackground=1"
-						width="100%"
-						height="250"
-						frameBorder="0"
-						marginHeight="0"
-						marginWidth="0"
-						title="Svatební formulář"
-						loading="lazy"
-						allowFullScreen
-						className="rounded-xl"
-					  ></iframe>
-
 					  <p>
-						Nebo si jej otevřete přímo&nbsp;
+						Otevřete si jej přímo zde:&nbsp;
 						<a
 						  href="https://tally.so/r/wAGQNy"
 						  target="_blank"
 						  rel="noopener noreferrer"
 						  className="text-blue-600 underline"
 						>
-						  v novém okně
-						</a>.
+						  formulář k potvrzení účasti
+						</a>
 					  </p>
 					</CardContent>
 				  </Card>
 				</section>
+
 				
 				<section id="dresscode" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-[#5A3E36]">Dresscode</h2>
