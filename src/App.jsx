@@ -8,17 +8,18 @@ import { useState, useEffect } from "react";
 const sections = [
 	{ id: "onas", label: "O nás" },
 	{ id: "misto", label: "Místo" },
-	{ id: "harmonogram", label: "Harmonogram" },
-	{ id: "dresscode", label: "Dresscode" },
-	{ id: "ubytovani", label: "Ubytování" },
-	{ id: "dary", label: "Dary" },
 	{ id: "formular", label: "Formulář" },
+	{ id: "dresscode", label: "Dresscode" },	
+	{ id: "harmonogram", label: "Harmonogram" },	
+	{ id: "ubytovani", label: "Ubytování" },
+	{ id: "parkovani", label: "Parkování" },
 	{ id: "fotky", label: "Fotky" },
+	{ id: "dary", label: "Dary" },		
 	{ id: "kontakty", label: "Kontakty" }
 ];
 
 const PASSWORD_KEY = "wedding_auth";
-const CORRECT_PASSWORD = "kravicka31";
+const CORRECT_PASSWORD = "svatba25";
 
 function AuthorizationGate({ children }) {
 	const [authorized, setAuthorized] = useState(false);
@@ -167,84 +168,7 @@ export default function App() {
 					</CardContent>
 				  </Card>
 				</section>
-
-				<section id="harmonogram" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
-				<h2 className="text-2xl font-serif text-[#5A3E36]">Harmonogram dne</h2>
-				<Card className="bg-gray-100">
-				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-100 rounded-xl">
-					<ul className="list-disc list-inside space-y-1">
-					  <li><strong>11:00</strong> – Příjezd hostů, vítání, welcome drink</li>
-					  <li><strong>12:00</strong> – Obřad pod širým nebem</li>
-					  <li><strong>13:00</strong> – Společné focení a oběd</li>
-					  <li><strong>Odpoledne</strong> – Volná zábava, káva, dort, chill zóna</li>
-					  <li><strong>16:30</strong> – Raut plný dobrot</li>
-					  <li><strong>19:00</strong> – První svatební tanec</li>
-					  <li><strong>Večer</strong> – Párty a radovánky až do ranních hodin 🎉</li>
-					</ul>
-				  </CardContent>
-				</Card>
-				</section>
-
-				<section id="dresscode" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
-				<h2 className="text-2xl font-serif text-[#5A3E36]">Dresscode</h2>
-				<Card className="bg-gray-100">
-				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-100 rounded-xl">
-					<p>
-					  Naše svatba se ponese v duchu lehké elegance a pohodové atmosféry. Prosíme vás proto
-					  o světlé barvy v casual stylu. Dámy mohou sáhnout po jemných pastelových tónech, třeba
-					  mintové, pudrové nebo krémové – šaty, sukně či elegantní kalhoty jsou vítané.
-					</p>
-					<p>
-					  Pánům bude slušet světlá košile, krémové nebo béžové kalhoty, klidně i vestička nebo
-					  sako. Kravata není nutností – důležitá je pohoda a úsměv 😊
-					</p>
-					<div className="flex flex-wrap justify-center items-center gap-4 mt-4">
-						<div className="w-14 h-14 rounded-full bg-[#bda8c2]" title="fialová" />
-						<div className="w-14 h-14 rounded-full bg-[#bfc9a3]" title="světle zelená" />
-						<div className="w-14 h-14 rounded-full bg-[#53774b]" title="tmavě zelená" />
-						<div className="w-14 h-14 rounded-full bg-[#d68a1e]" title="hořčicová" />
-						<div className="w-14 h-14 rounded-full bg-[#e1b521]" title="žlutá" />
-						<div className="w-14 h-14 rounded-full bg-[#e2c6a3]" title="béžová" />
-					</div>
-				  </CardContent>
-				</Card>
-				</section>
-
-				<section id="ubytovani" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
-				<h2 className="text-2xl font-serif text-[#5A3E36]">Ubytování</h2>
-				<Card className="bg-gray-100">
-				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-100 rounded-xl">
-					<p>
-					  V Dohnalově mlýně bude k dispozici omezený počet míst pro přespání. Pokud máte zájem o ubytování, uveďte to prosím ve formuláři níže. 
-					  <br/>
-					  Případně si můžete zajistit vlastní ubytování v okolí – rádi doporučíme.
-					</p>
-					<img
-						src="./images//ubytko.jpg"
-						alt="Ubytování"
-						className="rounded-xl w-full object-cover max-h-[400px]"
-					/>
-				  </CardContent>
-				</Card>
-				</section>
-
-				<section id="dary" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
-				<h2 className="text-2xl font-serif text-[#5A3E36]">Dary</h2>
-				<Card className="bg-gray-100">
-				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-100 rounded-xl">
-					<p>
-					  Největším darem pro nás je vaše přítomnost a to, že s námi prožijete tento den.
-					</p>
-					<p>
-					  Pokud byste nás přesto chtěli obdarovat, potěší nás finanční příspěvek na svatební cestu, nebo na něco krásného do našeho společného domova.
-					</p>
-					<p>
-					  Děkujeme, že jste součástí našeho příběhu 💕
-					</p>
-				  </CardContent>
-				</Card>
-				</section>
-
+				
 				<section id="formular" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
 				  <h2 className="text-2xl font-serif text-[#5A3E36]">Potvrď svou účast</h2>
 				  <Card className="bg-gray-100">
@@ -281,7 +205,83 @@ export default function App() {
 					</CardContent>
 				  </Card>
 				</section>
+				
+				<section id="dresscode" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
+				<h2 className="text-2xl font-serif text-[#5A3E36]">Dresscode</h2>
+				<Card className="bg-gray-100">
+				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-100 rounded-xl">
+					<p>
+					  Naše svatba se ponese v duchu lehké elegance a pohodové atmosféry. Prosíme vás proto
+					  o světlé barvy v casual stylu. Dámy mohou sáhnout po jemných pastelových tónech, třeba
+					  mintové, pudrové nebo krémové – šaty, sukně či elegantní kalhoty jsou vítané.
+					</p>
+					<p>
+					  Pánům bude slušet světlá košile, krémové nebo béžové kalhoty, klidně i vestička nebo
+					  sako. Kravata není nutností – důležitá je pohoda a úsměv 😊
+					</p>
+					<div className="flex flex-wrap justify-center items-center gap-4 mt-4">
+						<div className="w-14 h-14 rounded-full bg-[#bda8c2]" title="fialová" />
+						<div className="w-14 h-14 rounded-full bg-[#bfc9a3]" title="světle zelená" />
+						<div className="w-14 h-14 rounded-full bg-[#53774b]" title="tmavě zelená" />
+						<div className="w-14 h-14 rounded-full bg-[#d68a1e]" title="hořčicová" />
+						<div className="w-14 h-14 rounded-full bg-[#e1b521]" title="žlutá" />
+						<div className="w-14 h-14 rounded-full bg-[#e2c6a3]" title="béžová" />
+					</div>
+				  </CardContent>
+				</Card>
+				</section>
 
+				<section id="harmonogram" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
+				<h2 className="text-2xl font-serif text-[#5A3E36]">Harmonogram dne</h2>
+				<Card className="bg-gray-100">
+				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-100 rounded-xl">
+					<ul className="list-disc list-inside space-y-1">
+					  <li><strong>11:00</strong> – Příjezd hostů, vítání, welcome drink</li>
+					  <li><strong>12:00</strong> – Obřad pod širým nebem</li>
+					  <li><strong>13:00</strong> – Společné focení a oběd</li>
+					  <li><strong>Odpoledne</strong> – Volná zábava, káva, dort, chill zóna</li>
+					  <li><strong>16:30</strong> – Raut plný dobrot</li>
+					  <li><strong>19:00</strong> – První svatební tanec</li>
+					  <li><strong>Večer</strong> – Párty a radovánky až do ranních hodin 🎉</li>
+					</ul>
+				  </CardContent>
+				</Card>
+				</section>
+
+				<section id="ubytovani" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
+				<h2 className="text-2xl font-serif text-[#5A3E36]">Ubytování</h2>
+				<Card className="bg-gray-100">
+				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-100 rounded-xl">
+					<p>
+					  V Dohnalově mlýně bude k dispozici omezený počet míst pro přespání. Pokud máte zájem o ubytování, uveďte to prosím ve formuláři níže. 
+					  <br/>
+					  Případně si můžete zajistit vlastní ubytování v okolí – rádi doporučíme.
+					</p>
+					<img
+						src="./images//ubytko.jpg"
+						alt="Ubytování"
+						className="rounded-xl w-full object-cover max-h-[400px]"
+					/>
+				  </CardContent>
+				</Card>
+				</section>
+				
+				<section id="parkovani" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
+				<h2 className="text-2xl font-serif text-[#5A3E36]">Parkování</h2>
+				<Card className="bg-gray-100">
+					<CardContent className="p-6 space-y-4 pt-6 bg-gray-100 rounded-xl">
+					  <p>
+						Před areálem Dohnalova mlýna můžete pohodlně zaparkovat přímo u cesty. K dispozici je také rozlehlá louka, kde je dostatek místa pro auta všech hostů – a to bez nutnosti dlouhého hledání parkovacího místa.
+					  </p>
+					  <img
+						src="./images/parkovani.jpg"
+						alt="Parkování u Dohnalova mlýna"
+						className="rounded-xl w-full object-cover max-h-[400px]"
+					  />
+					</CardContent>
+				</Card>
+				</section>
+				
 				<section id="fotky" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-[#5A3E36]">Sdílej fotky z našeho dne</h2>
 					<Card className="bg-gray-100">
@@ -293,6 +293,23 @@ export default function App() {
 							</p>
 						</CardContent>
 					</Card>
+				</section>
+
+				<section id="dary" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">
+				<h2 className="text-2xl font-serif text-[#5A3E36]">Dary</h2>
+				<Card className="bg-gray-100">
+				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-100 rounded-xl">
+					<p>
+					  Největším darem pro nás je vaše přítomnost a to, že s námi prožijete tento den.
+					</p>
+					<p>
+					  Pokud byste nás přesto chtěli obdarovat, potěší nás finanční příspěvek na svatební cestu, nebo na něco krásného do našeho společného domova.
+					</p>
+					<p>
+					  Děkujeme, že jste součástí našeho příběhu 💕
+					</p>
+				  </CardContent>
+				</Card>
 				</section>
 
 				<section id="kontakty" className="scroll-mt-24 p-6 bg-gray-100 rounded-xl space-y-4">

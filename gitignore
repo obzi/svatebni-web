@@ -1,0 +1,12 @@
+# dependencies
+node_modules
+
+# production
+dist
+
+# env
+.env
+
+# IDE/editor settings
+.vscode
+.DS_Store
