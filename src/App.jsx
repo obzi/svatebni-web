@@ -91,7 +91,7 @@ export default function App() {
 			<div className="bg-white bg-opacity-80 min-h-screen">
 				<div className="p-4 max-w-4xl mx-auto space-y-12">
 				{/* Menu */}
-				<nav className="sticky top-0 z-10 bg-sage-light bg-opacity-90 shadow mb-6 mt-8 rounded-xl backdrop-blur">
+				<nav className="sticky top-0 z-10 bg-sage-medium bg-opacity-90 shadow mb-6 mt-8 rounded-xl backdrop-blur">
 				<div className="flex items-center justify-between p-4">
 					<div className="flex flex-col items-start">
 					  <span className="text-xl font-serif text-emeraldDeep leading-tight">Svatba</span>
@@ -130,9 +130,9 @@ export default function App() {
 				)}
 				</nav>
 
-				<section id="onas" className="scroll-mt-24 p-6 bg-sage-light max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
+				<section id="onas" className="scroll-mt-24 p-6 bg-sage-medium max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				  <h2 className="text-2xl font-serif text-emeraldDeep">O nás</h2>
-					<div className="p-6 space-y-4 pt-6 bg-sage-light rounded-xl">
+					<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 						<img
 							src="./images/tom_veru.jpeg"
 							alt="Tomáš a Verča"
@@ -144,9 +144,9 @@ export default function App() {
 					</div>
 				</section>
 
-				<section id="misto" className="scroll-mt-24 p-6 bg-sage-light max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
+				<section id="misto" className="scroll-mt-24 p-6 bg-sage-medium max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				  <h2 className="text-2xl font-serif text-emeraldDeep">Místo konání</h2>
-				  <div className="p-6 space-y-4 pt-6 bg-sage-light rounded-xl">
+				  <div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 					  <p>
 						Svatba se koná na krásném a klidném místě s romantickou atmosférou – v <strong>Dohnalově mlýně</strong> v Zástřizlech.
 						Tento mlýn obklopený přírodou je jako stvořený pro svatbu snů. 💐
@@ -166,9 +166,9 @@ export default function App() {
 				  </div>
 				</section>
 				
-				<section id="ubytovani" className="scroll-mt-24 p-6 bg-sage-light max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
+				<section id="ubytovani" className="scroll-mt-24 p-6 bg-sage-medium max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 					<h2 className="text-2xl font-serif text-emeraldDeep">Ubytování</h2>
-					<div className="p-6 space-y-4 pt-6 bg-sage-light rounded-xl">
+					<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 						<p>
 						  V hlavní budově v Dohnalově mlýně bude k dispozici omezený počet míst pro přespání, které máme určené pro nejbližší rodinu. Prosíme ty, které jsme neinfromovali o tom, že mají zajištěné místo na spaní, aby vyplnili ve formuláři níže, o jaké ubytování máte zájem.
 						Pokud chcete ušetřit a přespat zadarmo, je možné přespat na místě v Dohnalově mlýně, kde je velká louka se třemi glampingovými stany a dají se zde postavit i další. Případně je možné přijet i s karavanem nebo přespat v autě.
@@ -209,9 +209,9 @@ export default function App() {
 					</div>
 				</section>
 				
-				<section id="formular" className="scroll-mt-24 p-6 bg-sage-light max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
+				<section id="formular" className="scroll-mt-24 p-6 bg-sage-medium max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 					<h2 className="text-2xl font-serif text-emeraldDeep">Potvrď svou účast</h2>
-					<div className="p-6 space-y-4 pt-6 bg-sage-light rounded-xl">
+					<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 					  <p>
 						Prosíme o vyplnění formuláře, abychom věděli, s kým máme počítat a co připravit.
 						Zvládnete to za minutku. ❤
@@ -231,9 +231,9 @@ export default function App() {
 				</section>
 
 				
-				<section id="dresscode" className="scroll-mt-24 p-6 bg-sage-light max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
+				<section id="dresscode" className="scroll-mt-24 p-6 bg-sage-medium max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-emeraldDeep">Dresscode</h2>
-				<div className="p-6 space-y-4 pt-6 bg-sage-light rounded-xl">
+				<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 					<p>
 					  Naše svatba se ponese v duchu lehké elegance a pohodové atmosféry. Prosíme vás proto
 					  o světlé barvy v casual stylu. Dámy mohou sáhnout po jemných pastelových tónech, třeba
@@ -244,19 +244,20 @@ export default function App() {
 					  sako. Kravata není nutností – důležitá je pohoda a úsměv 😊
 					</p>
 					<div className="flex flex-wrap justify-center items-center gap-4 mt-4">
-						<div className="w-14 h-14 rounded-full bg-[#bda8c2]" title="fialová" />
-						<div className="w-14 h-14 rounded-full bg-[#bfc9a3]" title="světle zelená" />
-						<div className="w-14 h-14 rounded-full bg-[#53774b]" title="tmavě zelená" />
-						<div className="w-14 h-14 rounded-full bg-[#d68a1e]" title="hořčicová" />
-						<div className="w-14 h-14 rounded-full bg-[#e1b521]" title="žlutá" />
-						<div className="w-14 h-14 rounded-full bg-[#e2c6a3]" title="béžová" />
+						<div className="w-14 h-14 rounded-full bg-sage-green" title="šalvějově zelená" />
+						<div className="w-14 h-14 rounded-full bg-teal" title="tyrkysová" />
+						<div className="w-14 h-14 rounded-full bg-viridian" title="viridiánová" />
+						<div className="w-14 h-14 rounded-full bg-almond" title="mandlová" />
+						<div className="w-14 h-14 rounded-full bg-almond2" title="mandlová" />
+						<div className="w-14 h-14 rounded-full bg-champagne" title="žlutá" />
+						<div className="w-14 h-14 rounded-full bg-sand" title="béžová" />
 					</div>
 				</div>
 				</section>
 
-				<section id="harmonogram" className="scroll-mt-24 p-6 bg-sage-light max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
+				<section id="harmonogram" className="scroll-mt-24 p-6 bg-sage-medium max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-emeraldDeep">Harmonogram dne</h2>
-				<div className="p-6 space-y-4 pt-6 bg-sage-light rounded-xl">
+				<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 					<ul className="list-disc list-inside space-y-1">
 					  <li><strong>11:00</strong> – Příjezd hostů, vítání, welcome drink</li>
 					  <li><strong>12:00</strong> – Obřad pod širým nebem</li>
@@ -269,9 +270,9 @@ export default function App() {
 				</div>
 				</section>
 				
-				<section id="parkovani" className="scroll-mt-24 p-6 bg-sage-light max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
+				<section id="parkovani" className="scroll-mt-24 p-6 bg-sage-medium max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-emeraldDeep">Parkování</h2>
-				<div className="p-6 space-y-4 pt-6 bg-sage-light rounded-xl">
+				<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 				  <p>
 					Před areálem Dohnalova mlýna můžete pohodlně zaparkovat přímo u cesty. K dispozici je také rozlehlá louka, kde je dostatek místa pro auta všech hostů – a to bez nutnosti dlouhého hledání parkovacího místa.
 				  </p>
@@ -283,9 +284,9 @@ export default function App() {
 				</div>
 				</section>
 				
-				<section id="fotky" className="scroll-mt-24 p-6 bg-sage-light max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
+				<section id="fotky" className="scroll-mt-24 p-6 bg-sage-medium max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-emeraldDeep">Sdílej fotky z našeho dne</h2>
-				<div className="p-6 space-y-4 pt-6 bg-sage-light rounded-xl">
+				<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 					<p>
 					Fotky od fotografa budou krásné, ale ty nejúžasnější momentky často vznikají z rukou vás – našich hostů. Sdílet můžete nejen fotky, ale i videa. Na oplátku se s vámi rádi podělíme o ty oficiální.
 					<br/>
@@ -294,9 +295,9 @@ export default function App() {
 				</div>
 				</section>
 
-				<section id="dary" className="scroll-mt-24 p-6 bg-sage-light max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
+				<section id="dary" className="scroll-mt-24 p-6 bg-sage-medium max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-emeraldDeep">Dary</h2>
-				<div className="p-6 space-y-4 pt-6 bg-sage-light rounded-xl">
+				<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 					<p>
 					  Největším darem pro nás je vaše přítomnost a to, že s námi prožijete tento den.
 					</p>
@@ -309,9 +310,9 @@ export default function App() {
 				</div>
 				</section>
 
-				<section id="kontakty" className="scroll-mt-24 p-6 bg-sage-light max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
+				<section id="kontakty" className="scroll-mt-24 p-6 bg-sage-medium max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-emeraldDeep">Kontakty</h2>
-				<div className="p-6 space-y-4 pt-6 bg-sage-light rounded-xl">
+				<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 					<p>Máte otázku, něco vám není jasné, nebo jste něco nenašli na webu či ve formuláři?</p>
 					<p>Ozvěte se nám kdykoliv:</p>
 					<ul className="list-disc list-inside">
