@@ -127,10 +127,10 @@ export default function App() {
 				)}
 				</nav>
 
-				<section id="onas" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
+				<section id="onas" className="scroll-mt-24 p-6 bg-gray-200 max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				  <h2 className="text-2xl font-serif text-[#5A3E36]">O nás</h2>
 				  <Card className="bg-gray-200">
-					<CardContent className="bg-gray-100 p-6 pt-6 rounded-xl space-y-4">
+					<CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
 						<img
 							src="./images/tom_veru.jpeg"
 							alt="Tomáš a Verča"
@@ -143,7 +143,7 @@ export default function App() {
 				  </Card>
 				</section>
 
-				<section id="misto" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
+				<section id="misto" className="scroll-mt-24 p-6 bg-gray-200 max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				  <h2 className="text-2xl font-serif text-[#5A3E36]">Místo konání</h2>
 				  <Card className="bg-gray-200">
 					<CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
@@ -169,7 +169,7 @@ export default function App() {
 				  </Card>
 				</section>
 				
-				<section id="ubytovani" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
+				<section id="ubytovani" className="scroll-mt-24 p-6 bg-gray-200 max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-[#5A3E36]">Ubytování</h2>
 				<Card className="bg-gray-200">
 				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
@@ -182,22 +182,27 @@ export default function App() {
 						  target="_blank"
 						  className="text-blue-600 underline"
 						>Motorest Samota</a>
+						<br/>
 						<a href="https://www.e-chalupy.cz/ubytovani-zastrizly-probuzena-chalupa-k-pronajmu-o15926#mapa"
 						  target="_blank"
 						  className="text-blue-600 underline"
 						>Chata Zástřizly</a>
+						<br/>
 						<a href="https://www.booking.com/hotel/cz/chaticka-hanicka-u-lesa.cs.html?label=cs-cz-booking-desktop-earHHgH3FZx9dDdzrjamRwS652828999198%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9211630%3Ali%3Adec%3Adm&aid=2311236&ucfs=1&checkin=2025-09-25&checkout=2025-09-26&dest_id=0&dest_type=latlong&group_adults=2&no_rooms=1&group_children=0&nflt=oos%3D1&srpvid=b3c98b4bc66f03e9&srepoch=1748980134&matching_block_id=1263414501_398988382_2_0_0&atlas_src=sr_iw_title"
 						  target="_blank"
 						  className="text-blue-600 underline"
 						>Chata Střílky</a>
+						<br/>
 						<a href="https://www.booking.com/hotel/cz/penzion-vila-winter.cs.html?label=cs-cz-booking-desktop-earHHgH3FZx9dDdzrjamRwS652828999198%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9211630%3Ali%3Adec%3Adm&aid=2311236&ucfs=1&checkin=2025-09-25&checkout=2025-09-26&dest_id=0&dest_type=latlong&group_adults=2&no_rooms=1&group_children=0&nflt=oos%3D1&srpvid=b3c98b4bc66f03e9&srepoch=1748980191&matching_block_id=751965801_412284979_2_0_0&atlas_src=sr_iw_title"
 						  target="_blank"
 						  className="text-blue-600 underline"
 						>Penzion Vila Winter</a>
+						<br/>
 						<a href="https://pension-buchlovsky-dvur.penzion.cz/?gad_source=1&gad_campaignid=872974319&gbraid=0AAAAADMHvSJzuUgzIo4y-G2qkyZutXgAr&gclid=Cj0KCQjwuvrBBhDcARIsAKRrkjdo8_tOPiH2kUJnBQ8bk9HkbaHue2Y2ALPEU0PNYPyC61rR_lmEsSQaAnetEALw_wcB"
 						  target="_blank"
 						  className="text-blue-600 underline"
 						>Penzion Buchlovský dvůr</a>
+						<br/>
 						Více na: e-chalupy.cz, booking.com, airbnb.cz
 					</p>
 					<img
@@ -209,7 +214,7 @@ export default function App() {
 				</Card>
 				</section>
 				
-				<section id="formular" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
+				<section id="formular" className="scroll-mt-24 p-6 bg-gray-200 max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				  <h2 className="text-2xl font-serif text-[#5A3E36]">Potvrď svou účast</h2>
 				  <Card className="bg-gray-200">
 					<CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
@@ -233,7 +238,7 @@ export default function App() {
 				</section>
 
 				
-				<section id="dresscode" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
+				<section id="dresscode" className="scroll-mt-24 p-6 bg-gray-200 max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-[#5A3E36]">Dresscode</h2>
 				<Card className="bg-gray-200">
 				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
@@ -258,7 +263,7 @@ export default function App() {
 				</Card>
 				</section>
 
-				<section id="harmonogram" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
+				<section id="harmonogram" className="scroll-mt-24 p-6 bg-gray-200 max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-[#5A3E36]">Harmonogram dne</h2>
 				<Card className="bg-gray-200">
 				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
@@ -275,7 +280,7 @@ export default function App() {
 				</Card>
 				</section>
 				
-				<section id="parkovani" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
+				<section id="parkovani" className="scroll-mt-24 p-6 bg-gray-200 max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-[#5A3E36]">Parkování</h2>
 				<Card className="bg-gray-200">
 					<CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
@@ -291,7 +296,7 @@ export default function App() {
 				</Card>
 				</section>
 				
-				<section id="fotky" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
+				<section id="fotky" className="scroll-mt-24 p-6 bg-gray-200 max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-[#5A3E36]">Sdílej fotky z našeho dne</h2>
 					<Card className="bg-gray-200">
 						<CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
@@ -304,7 +309,7 @@ export default function App() {
 					</Card>
 				</section>
 
-				<section id="dary" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
+				<section id="dary" className="scroll-mt-24 p-6 bg-gray-200 max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-[#5A3E36]">Dary</h2>
 				<Card className="bg-gray-200">
 				  <CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
@@ -321,7 +326,7 @@ export default function App() {
 				</Card>
 				</section>
 
-				<section id="kontakty" className="scroll-mt-24 p-6 bg-gray-200 max-w-md mx-auto rounded-xl space-y-4">
+				<section id="kontakty" className="scroll-mt-24 p-6 bg-gray-200 max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 					<h2 className="text-2xl font-serif text-[#5A3E36]">Kontakty</h2>
 					<Card className="bg-gray-200">
 						<CardContent className="p-6 space-y-4 pt-6 bg-gray-200 rounded-xl">
