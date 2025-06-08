@@ -243,12 +243,11 @@ export default function App() {
 					  Pánům bude slušet světlá košile, krémové nebo béžové kalhoty, klidně i vestička nebo
 					  sako. Kravata není nutností – důležitá je pohoda a úsměv 😊
 					</p>
-					<div className="flex flex-wrap justify-center items-center gap-4 mt-4">
+					<div className="flex flex-wrap justify-center items-center gap-4 mt-4 p-4 rounded-xl bg-white shadow">
 						<div className="w-14 h-14 rounded-full bg-sage-green" title="šalvějově zelená" />
 						<div className="w-14 h-14 rounded-full bg-teal" title="tyrkysová" />
 						<div className="w-14 h-14 rounded-full bg-viridian" title="viridiánová" />
 						<div className="w-14 h-14 rounded-full bg-almond" title="mandlová" />
-						<div className="w-14 h-14 rounded-full bg-almond2" title="mandlová" />
 						<div className="w-14 h-14 rounded-full bg-champagne" title="žlutá" />
 						<div className="w-14 h-14 rounded-full bg-sand" title="béžová" />
 					</div>
