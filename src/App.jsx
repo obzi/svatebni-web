@@ -139,6 +139,7 @@ export default function App() {
 						<p>
 						Jsme Tom a Veru a za posledních pět let jsme nasbírali spoustu zážitků, razítek v pase a historek, které bychom možná neměli vyprávět nahlas. Spojuje nás chuť objevovat svět i sebe navzájem a smysl pro humor, bez kterého by to s námi nešlo. Společně jsme sjeli hory na prkně, rybníky na waku, oceán na surfu a půlku světa s batohem na zádech. Teď jsme se rozhodli naskočit do dalšího dobrodružství – manželství. A jak se známe, vezmeme to s nadhledem, humorem a nejspíš i helmou. Děkujeme, že jste u toho s námi.
 						</p>
+					</div>
 				</section>
 
 				<section id="misto" className="scroll-mt-24 p-6 bg-sage max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
@@ -162,11 +163,12 @@ export default function App() {
 						  📍 Zobrazit Dohnalův mlýn na mapě
 						</a>
 					  </div>
+				  </div>
 				</section>
 				
 				<section id="ubytovani" className="scroll-mt-24 p-6 bg-sage max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-emerald-700">Ubytování</h2>
-<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
+				<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
 					<p>
 					  V hlavní budově v Dohnalově mlýně bude k dispozici omezený počet míst pro přespání, které máme určené pro nejbližší rodinu. Prosíme ty, které jsme neinfromovali o tom, že mají zajištěné místo na spaní, aby vyplnili ve formuláři níže, o jaké ubytování máte zájem.
 					Pokud chcete ušetřit a přespat zadarmo, je možné přespat na místě v Dohnalově mlýně, kde je velká louka se třemi glampingovými stany a dají se zde postavit i další. Případně je možné přijet i s karavanem nebo přespat v autě.
@@ -204,11 +206,12 @@ export default function App() {
 						alt="Ubytování"
 						className="rounded-xl w-full object-cover max-h-[400px]"
 					/>
+				</div>
 				</section>
 				
 				<section id="formular" className="scroll-mt-24 p-6 bg-sage max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
-				  <h2 className="text-2xl font-serif text-black">Potvrď svou účast</h2>
-<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
+				<h2 className="text-2xl font-serif text-black">Potvrď svou účast</h2>
+				<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
 					  <p>
 						Prosíme o vyplnění formuláře – abychom věděli, s kým máme počítat a co připravit.
 						Zvládnete to za minutku. ❤
@@ -224,12 +227,13 @@ export default function App() {
 						  formulář k potvrzení účasti
 						</a>
 					  </p>
+				  </div>
 				</section>
 
 				
 				<section id="dresscode" className="scroll-mt-24 p-6 bg-sage max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-black">Dresscode</h2>
-<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
+				<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
 					<p>
 					  Naše svatba se ponese v duchu lehké elegance a pohodové atmosféry. Prosíme vás proto
 					  o světlé barvy v casual stylu. Dámy mohou sáhnout po jemných pastelových tónech, třeba
@@ -247,11 +251,12 @@ export default function App() {
 						<div className="w-14 h-14 rounded-full bg-[#e1b521]" title="žlutá" />
 						<div className="w-14 h-14 rounded-full bg-[#e2c6a3]" title="béžová" />
 					</div>
+				</div>
 				</section>
 
 				<section id="harmonogram" className="scroll-mt-24 p-6 bg-sage max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-black">Harmonogram dne</h2>
-<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
+				<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
 					<ul className="list-disc list-inside space-y-1">
 					  <li><strong>11:00</strong> – Příjezd hostů, vítání, welcome drink</li>
 					  <li><strong>12:00</strong> – Obřad pod širým nebem</li>
@@ -261,38 +266,37 @@ export default function App() {
 					  <li><strong>19:00</strong> – První svatební tanec</li>
 					  <li><strong>Večer</strong> – Párty a radovánky až do ranních hodin 🎉</li>
 					</ul>
-<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
+				</div>
 				</section>
 				
 				<section id="parkovani" className="scroll-mt-24 p-6 bg-sage max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-black">Parkování</h2>
-				<Card className="bg-sage">
-					<CardContent className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
-					  <p>
-						Před areálem Dohnalova mlýna můžete pohodlně zaparkovat přímo u cesty. K dispozici je také rozlehlá louka, kde je dostatek místa pro auta všech hostů – a to bez nutnosti dlouhého hledání parkovacího místa.
-					  </p>
-					  <img
-						src="./images/parkovani.jpg"
-						alt="Parkování u Dohnalova mlýna"
-						className="rounded-xl w-full object-cover max-h-[400px]"
-					  />
-					</CardContent>
-				</Card>
+				<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
+				  <p>
+					Před areálem Dohnalova mlýna můžete pohodlně zaparkovat přímo u cesty. K dispozici je také rozlehlá louka, kde je dostatek místa pro auta všech hostů – a to bez nutnosti dlouhého hledání parkovacího místa.
+				  </p>
+				  <img
+					src="./images/parkovani.jpg"
+					alt="Parkování u Dohnalova mlýna"
+					className="rounded-xl w-full object-cover max-h-[400px]"
+				  />
+				</div>
 				</section>
 				
 				<section id="fotky" className="scroll-mt-24 p-6 bg-sage max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-black">Sdílej fotky z našeho dne</h2>
-<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
-							<p>
-							Fotky od fotografa budou krásné, ale ty nejúžasnější momentky často vznikají z rukou vás – našich hostů. Sdílet můžete nejen fotky, ale i videa. Na oplátku se s vámi rádi podělíme o ty oficiální.
-							<br/>
-							Stačí použít <a href="https://drive.google.com/drive/folders/1x46_RCJCCX0LizBKDRZHFJRvwVXvZdjA?usp=sharing" target="_blank" className="text-blue-600 underline"> tento odkaz na náš sdílený Google Disk</a>.
-							</p>
+				<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
+					<p>
+					Fotky od fotografa budou krásné, ale ty nejúžasnější momentky často vznikají z rukou vás – našich hostů. Sdílet můžete nejen fotky, ale i videa. Na oplátku se s vámi rádi podělíme o ty oficiální.
+					<br/>
+					Stačí použít <a href="https://drive.google.com/drive/folders/1x46_RCJCCX0LizBKDRZHFJRvwVXvZdjA?usp=sharing" target="_blank" className="text-blue-600 underline"> tento odkaz na náš sdílený Google Disk</a>.
+					</p>
+				</div>
 				</section>
 
 				<section id="dary" className="scroll-mt-24 p-6 bg-sage max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-black">Dary</h2>
-<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
+				<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
 					<p>
 					  Největším darem pro nás je vaše přítomnost a to, že s námi prožijete tento den.
 					</p>
@@ -302,17 +306,19 @@ export default function App() {
 					<p>
 					  Děkujeme, že jste součástí našeho příběhu 💕
 					</p>
+				</div>
 				</section>
 
 				<section id="kontakty" className="scroll-mt-24 p-6 bg-sage max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
-					<h2 className="text-2xl font-serif text-black">Kontakty</h2>
-<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
+				<h2 className="text-2xl font-serif text-black">Kontakty</h2>
+				<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
 							<p>Máte otázku, něco vám není jasné, nebo jste něco nenašli na webu či ve formuláři?</p>
 							<p>Ozvěte se nám kdykoliv:</p>
 							<ul className="list-disc list-inside">
 							  <li><strong>Tomáš</strong>: <a href="tel:+420724963979" className="text-blue-600 underline">+420 724 963 979</a></li>
 							  <li><strong>Veru</strong>: <a href="tel:+420776026838" className="text-blue-600 underline">+420 776 026 838</a></li>
 							</ul>
+				</div>
 				</section>
 				</div>
 			</div>
