@@ -98,7 +98,7 @@ export default function App() {
 					  <span className="text-xl font-serif text-emeraldDeep leading-tight">Tom & Veru</span>
 					</div>
 					<button
-					className="md:hidden"
+					className="md:hidden focus:outline-none"
 					onClick={() => setMenuOpen(!menuOpen)}
 					aria-label="Toggle menu">
 					☰
@@ -154,14 +154,12 @@ export default function App() {
 					  <img
 						src="./images/dohnaluv_mlyn.jpg"
 						alt="Dohnalův mlýn"
-						className="w-full rounded-xl shadow-md"
-					  />
+						className="w-full rounded-xl shadow-md" 
+						/>
 					  <div>
-						<a
-						  href="https://www.google.com/maps/place/Z%C3%A1st%C5%99izly+87,+768+05/@49.1616299,17.2152273,17z"
+						<a href="https://www.google.com/maps/place/Z%C3%A1st%C5%99izly+87,+768+05/@49.1616299,17.2152273,17z"
 						  target="_blank"
-						  className="text-blue-600 underline"
-						>
+						  className="text-blue-600 underline">
 						  📍 Zobrazit Dohnalův mlýn na mapě
 						</a>
 					  </div>
@@ -169,53 +167,53 @@ export default function App() {
 				</section>
 				
 				<section id="ubytovani" className="scroll-mt-24 p-6 bg-sage-light max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
-				<h2 className="text-2xl font-serif text-emeraldDeep">Ubytování</h2>
-				<div className="p-6 space-y-4 pt-6 bg-sage-light rounded-xl">
-					<p>
-					  V hlavní budově v Dohnalově mlýně bude k dispozici omezený počet míst pro přespání, které máme určené pro nejbližší rodinu. Prosíme ty, které jsme neinfromovali o tom, že mají zajištěné místo na spaní, aby vyplnili ve formuláři níže, o jaké ubytování máte zájem.
-					Pokud chcete ušetřit a přespat zadarmo, je možné přespat na místě v Dohnalově mlýně, kde je velká louka se třemi glampingovými stany a dají se zde postavit i další. Případně je možné přijet i s karavanem nebo přespat v autě.
-					Pokud máte rádi pohodlí, doporučujeme co nejdříve rezervovat ubytování v penzionech v okolí, kam vám rádi zajistíme rozvoz, kdykoliv budete chtít.<br/>
-					Zde jsou ubytovací možnosti:<br/>
-						<a href="https://www.motorestsamota.cz/ubytovani/"
-						  target="_blank"
-						  className="text-blue-600 underline"
-						>Motorest Samota</a>
-						<br/>
-						<a href="https://www.e-chalupy.cz/ubytovani-zastrizly-probuzena-chalupa-k-pronajmu-o15926#mapa"
-						  target="_blank"
-						  className="text-blue-600 underline"
-						>Chata Zástřizly</a>
-						<br/>
-						<a href="https://www.booking.com/hotel/cz/chaticka-hanicka-u-lesa.cs.html?label=cs-cz-booking-desktop-earHHgH3FZx9dDdzrjamRwS652828999198%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9211630%3Ali%3Adec%3Adm&aid=2311236&ucfs=1&checkin=2025-09-25&checkout=2025-09-26&dest_id=0&dest_type=latlong&group_adults=2&no_rooms=1&group_children=0&nflt=oos%3D1&srpvid=b3c98b4bc66f03e9&srepoch=1748980134&matching_block_id=1263414501_398988382_2_0_0&atlas_src=sr_iw_title"
-						  target="_blank"
-						  className="text-blue-600 underline"
-						>Chata Střílky</a>
-						<br/>
-						<a href="https://www.booking.com/hotel/cz/penzion-vila-winter.cs.html?label=cs-cz-booking-desktop-earHHgH3FZx9dDdzrjamRwS652828999198%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9211630%3Ali%3Adec%3Adm&aid=2311236&ucfs=1&checkin=2025-09-25&checkout=2025-09-26&dest_id=0&dest_type=latlong&group_adults=2&no_rooms=1&group_children=0&nflt=oos%3D1&srpvid=b3c98b4bc66f03e9&srepoch=1748980191&matching_block_id=751965801_412284979_2_0_0&atlas_src=sr_iw_title"
-						  target="_blank"
-						  className="text-blue-600 underline"
-						>Penzion Vila Winter</a>
-						<br/>
-						<a href="https://pension-buchlovsky-dvur.penzion.cz/?gad_source=1&gad_campaignid=872974319&gbraid=0AAAAADMHvSJzuUgzIo4y-G2qkyZutXgAr&gclid=Cj0KCQjwuvrBBhDcARIsAKRrkjdo8_tOPiH2kUJnBQ8bk9HkbaHue2Y2ALPEU0PNYPyC61rR_lmEsSQaAnetEALw_wcB"
-						  target="_blank"
-						  className="text-blue-600 underline"
-						>Penzion Buchlovský dvůr</a>
-						<br/>
-						Více na: e-chalupy.cz, booking.com, airbnb.cz
-					</p>
-					<img
-						src="./images//ubytko.jpg"
-						alt="Ubytování"
-						className="rounded-xl w-full object-cover max-h-[400px]"
-					/>
-				</div>
+					<h2 className="text-2xl font-serif text-emeraldDeep">Ubytování</h2>
+					<div className="p-6 space-y-4 pt-6 bg-sage-light rounded-xl">
+						<p>
+						  V hlavní budově v Dohnalově mlýně bude k dispozici omezený počet míst pro přespání, které máme určené pro nejbližší rodinu. Prosíme ty, které jsme neinfromovali o tom, že mají zajištěné místo na spaní, aby vyplnili ve formuláři níže, o jaké ubytování máte zájem.
+						Pokud chcete ušetřit a přespat zadarmo, je možné přespat na místě v Dohnalově mlýně, kde je velká louka se třemi glampingovými stany a dají se zde postavit i další. Případně je možné přijet i s karavanem nebo přespat v autě.
+						Pokud máte rádi pohodlí, doporučujeme co nejdříve rezervovat ubytování v penzionech v okolí, kam vám rádi zajistíme rozvoz, kdykoliv budete chtít.<br/>
+						Zde jsou ubytovací možnosti:<br/>
+							<a href="https://www.motorestsamota.cz/ubytovani/"
+							  target="_blank"
+							  className="text-blue-600 underline"
+							>Motorest Samota</a>
+							<br/>
+							<a href="https://www.e-chalupy.cz/ubytovani-zastrizly-probuzena-chalupa-k-pronajmu-o15926#mapa"
+							  target="_blank"
+							  className="text-blue-600 underline"
+							>Chata Zástřizly</a>
+							<br/>
+							<a href="https://www.booking.com/hotel/cz/chaticka-hanicka-u-lesa.cs.html?label=cs-cz-booking-desktop-earHHgH3FZx9dDdzrjamRwS652828999198%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9211630%3Ali%3Adec%3Adm&aid=2311236&ucfs=1&checkin=2025-09-25&checkout=2025-09-26&dest_id=0&dest_type=latlong&group_adults=2&no_rooms=1&group_children=0&nflt=oos%3D1&srpvid=b3c98b4bc66f03e9&srepoch=1748980134&matching_block_id=1263414501_398988382_2_0_0&atlas_src=sr_iw_title"
+							  target="_blank"
+							  className="text-blue-600 underline"
+							>Chata Střílky</a>
+							<br/>
+							<a href="https://www.booking.com/hotel/cz/penzion-vila-winter.cs.html?label=cs-cz-booking-desktop-earHHgH3FZx9dDdzrjamRwS652828999198%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9211630%3Ali%3Adec%3Adm&aid=2311236&ucfs=1&checkin=2025-09-25&checkout=2025-09-26&dest_id=0&dest_type=latlong&group_adults=2&no_rooms=1&group_children=0&nflt=oos%3D1&srpvid=b3c98b4bc66f03e9&srepoch=1748980191&matching_block_id=751965801_412284979_2_0_0&atlas_src=sr_iw_title"
+							  target="_blank"
+							  className="text-blue-600 underline"
+							>Penzion Vila Winter</a>
+							<br/>
+							<a href="https://pension-buchlovsky-dvur.penzion.cz/?gad_source=1&gad_campaignid=872974319&gbraid=0AAAAADMHvSJzuUgzIo4y-G2qkyZutXgAr&gclid=Cj0KCQjwuvrBBhDcARIsAKRrkjdo8_tOPiH2kUJnBQ8bk9HkbaHue2Y2ALPEU0PNYPyC61rR_lmEsSQaAnetEALw_wcB"
+							  target="_blank"
+							  className="text-blue-600 underline"
+							>Penzion Buchlovský dvůr</a>
+							<br/>
+							Více na: e-chalupy.cz, booking.com, airbnb.cz
+						</p>
+						<img
+							src="./images//ubytko.jpg"
+							alt="Ubytování"
+							className="rounded-xl w-full object-cover max-h-[400px]"
+						/>
+					</div>
 				</section>
 				
 				<section id="formular" className="scroll-mt-24 p-6 bg-sage-light max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
-				<h2 className="text-2xl font-serif text-emeraldDeep">Potvrď svou účast</h2>
-				<div className="p-6 space-y-4 pt-6 bg-sage-light rounded-xl">
+					<h2 className="text-2xl font-serif text-emeraldDeep">Potvrď svou účast</h2>
+					<div className="p-6 space-y-4 pt-6 bg-sage-light rounded-xl">
 					  <p>
-						Prosíme o vyplnění formuláře – abychom věděli, s kým máme počítat a co připravit.
+						Prosíme o vyplnění formuláře, abychom věděli, s kým máme počítat a co připravit.
 						Zvládnete to za minutku. ❤
 					  </p>
 					  <p>
@@ -314,12 +312,12 @@ export default function App() {
 				<section id="kontakty" className="scroll-mt-24 p-6 bg-sage-light max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-emeraldDeep">Kontakty</h2>
 				<div className="p-6 space-y-4 pt-6 bg-sage-light rounded-xl">
-							<p>Máte otázku, něco vám není jasné, nebo jste něco nenašli na webu či ve formuláři?</p>
-							<p>Ozvěte se nám kdykoliv:</p>
-							<ul className="list-disc list-inside">
-							  <li><strong>Tomáš</strong>: <a href="tel:+420724963979" className="text-blue-600 underline">+420 724 963 979</a></li>
-							  <li><strong>Veru</strong>: <a href="tel:+420776026838" className="text-blue-600 underline">+420 776 026 838</a></li>
-							</ul>
+					<p>Máte otázku, něco vám není jasné, nebo jste něco nenašli na webu či ve formuláři?</p>
+					<p>Ozvěte se nám kdykoliv:</p>
+					<ul className="list-disc list-inside">
+					  <li><strong>Tomáš</strong>: <a href="tel:+420724963979" className="text-blue-600 underline">+420 724 963 979</a></li>
+					  <li><strong>Veru</strong>: <a href="tel:+420776026838" className="text-blue-600 underline">+420 776 026 838</a></li>
+					</ul>
 				</div>
 				</section>
 				</div>

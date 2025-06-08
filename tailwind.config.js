@@ -4,8 +4,9 @@ export default {
     extend: {
       colors: {
         sage: "#c8d5c1",
-		"sage-light": "#e3eae2",
+		// "sage-light": "#e3eae2",
 		emeraldDeep: "#094245",
+		"sage-light": "#d6e0d1",
       },
     },
   },
