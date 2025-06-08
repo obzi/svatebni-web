@@ -88,13 +88,15 @@ export default function App() {
 		className="min-h-screen bg-cover bg-center bg-fixed"
 		style={{ backgroundImage: "url('./images/background.jpg')" }}>
 	
-			<div className="bg-sage bg-opacity-80 min-h-screen">
+			<div className="bg-white bg-opacity-80 min-h-screen">
 				<div className="p-4 max-w-4xl mx-auto space-y-12">
 				{/* Menu */}
 				<nav className="sticky top-0 z-10 bg-sage bg-opacity-90 shadow mb-6 mt-8 rounded-xl backdrop-blur">
 				<div className="flex items-center justify-between p-4">
-					<h1 className="text-xl font-serif text-black">Svatba</h1>
-					<h1 className="text-xl font-serif text-black">Tom & Veru</h1>
+					<div className="flex flex-col items-start">
+					  <span className="text-xl font-serif text-black leading-tight">Svatba</span>
+					  <span className="text-xl font-serif text-black leading-tight">Tom & Veru</span>
+					</div>
 					<button
 					className="md:hidden"
 					onClick={() => setMenuOpen(!menuOpen)}
@@ -129,7 +131,7 @@ export default function App() {
 				</nav>
 
 				<section id="onas" className="scroll-mt-24 p-6 bg-sage max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
-				  <h2 className="text-2xl font-serif text-emerald-100">O nás</h2>
+				  <h2 className="text-2xl font-serif text-emeraldDeep">O nás</h2>
 					<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
 						<img
 							src="./images/tom_veru.jpeg"
@@ -143,7 +145,7 @@ export default function App() {
 				</section>
 
 				<section id="misto" className="scroll-mt-24 p-6 bg-sage max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
-				  <h2 className="text-2xl font-serif text-emerald-400">Místo konání</h2>
+				  <h2 className="text-2xl font-serif text-black">Místo konání</h2>
 				  <div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
 					  <p>
 						Svatba se koná na krásném a klidném místě s romantickou atmosférou – v <strong>Dohnalově mlýně</strong> v Zástřizlech.
@@ -167,7 +169,7 @@ export default function App() {
 				</section>
 				
 				<section id="ubytovani" className="scroll-mt-24 p-6 bg-sage max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
-				<h2 className="text-2xl font-serif text-emerald-700">Ubytování</h2>
+				<h2 className="text-2xl font-serif text-black">Ubytování</h2>
 				<div className="p-6 space-y-4 pt-6 bg-sage rounded-xl">
 					<p>
 					  V hlavní budově v Dohnalově mlýně bude k dispozici omezený počet míst pro přespání, které máme určené pro nejbližší rodinu. Prosíme ty, které jsme neinfromovali o tom, že mají zajištěné místo na spaní, aby vyplnili ve formuláři níže, o jaké ubytování máte zájem.
