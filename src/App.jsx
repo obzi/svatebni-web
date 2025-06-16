@@ -148,7 +148,7 @@ export default function App() {
 				  <h2 className="text-2xl font-serif text-emeraldDeep">Místo konání</h2>
 				  <div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 					  <p>
-						Svatba se koná na krásném a klidném místě s romantickou atmosférou – v <strong>Dohnalově mlýně</strong> v Zástřizlech.
+						Svatba se koná na krásném a klidném místě s romantickou atmosférou v <strong>Dohnalově mlýně</strong> v Zástřizlech.
 						Tento mlýn obklopený přírodou je jako stvořený pro svatbu snů. 💐
 					  </p>
 					  <img
@@ -160,7 +160,7 @@ export default function App() {
 						<a href="https://www.google.com/maps/place/Z%C3%A1st%C5%99izly+87,+768+05/@49.1616299,17.2152273,17z"
 						  target="_blank"
 						  className="text-blue-600 underline">
-						  📍 Zobrazit Dohnalův mlýn na mapě
+						  📍 Dohnalův mlýn na mapě
 						</a>
 					  </div>
 				  </div>
@@ -171,8 +171,8 @@ export default function App() {
 					<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 						<p>
 						  V hlavní budově v Dohnalově mlýně bude k dispozici omezený počet míst pro přespání, které máme určené pro nejbližší rodinu. Prosíme ty, které jsme neinfromovali o tom, že mají zajištěné místo na spaní, aby vyplnili ve formuláři níže, o jaké ubytování máte zájem.
-						Pokud chcete ušetřit a přespat zadarmo, je možné přespat na místě v Dohnalově mlýně, kde je velká louka se třemi glampingovými stany a dají se zde postavit i další. Případně je možné přijet i s karavanem nebo přespat v autě.
-						Pokud máte rádi pohodlí, doporučujeme co nejdříve rezervovat ubytování v penzionech v okolí, kam vám rádi zajistíme rozvoz, kdykoliv budete chtít.<br/>
+						<br/>Pokud chcete ušetřit a přespat zadarmo, je možné přespat na místě v Dohnalově mlýně, kde je velká louka se třemi glampingovými stany a dají se zde postavit i další. Případně je možné přijet i s karavanem nebo přespat v autě.
+						<br/>Pokud máte rádi pohodlí, doporučujeme co nejdříve rezervovat ubytování v penzionech v okolí, kam vám rádi zajistíme rozvoz, kdykoliv budete chtít.<br/>
 						Zde jsou ubytovací možnosti:<br/>
 							<a href="https://www.motorestsamota.cz/ubytovani/"
 							  target="_blank"
@@ -210,47 +210,99 @@ export default function App() {
 				</section>
 				
 				<section id="formular" className="scroll-mt-24 p-6 bg-sage-medium max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
-					<h2 className="text-2xl font-serif text-emeraldDeep">Potvrď svou účast</h2>
+					<h2 className="text-2xl font-serif text-emeraldDeep">Vyplň formulář a potvrď svou účast</h2>
 					<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 					  <p>
 						Prosíme o vyplnění formuláře, abychom věděli, s kým máme počítat a co připravit.
 						Zvládnete to za minutku. ❤
 					  </p>
 					  <p>
-						Otevřete si jej přímo zde:&nbsp;
-						<a
-						  href="https://tally.so/r/wAGQNy"
-						  target="_blank"
-						  rel="noopener noreferrer"
-						  className="text-blue-600 underline"
-						>
-						  formulář k potvrzení účasti
-						</a>
+						<span className="hidden sm:inline">Otevřete si jej přímo zde: </span>
+						<span className="sm:hidden">Otevřete si jej přímo zde:<br /></span>
+						<a href="https://tally.so/r/wAGQNy" 
+							target="_blank"
+							rel="noopener noreferrer" 
+							className="underline text-blue-700">Formulář k potvrzení účasti</a>.
 					  </p>
 				  </div>
 				</section>
-
 				
 				<section id="dresscode" className="scroll-mt-24 p-6 bg-sage-medium max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
 				<h2 className="text-2xl font-serif text-emeraldDeep">Dresscode</h2>
 				<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 					<p>
-					  Naše svatba se ponese v duchu lehké elegance a pohodové atmosféry. Prosíme vás proto
-					  o světlé barvy v casual stylu. Dámy mohou sáhnout po jemných pastelových tónech, třeba
-					  mintové, pudrové nebo krémové – šaty, sukně či elegantní kalhoty jsou vítané.
+						Naše svatba se ponese v duchu lehké elegance a pohodové atmosféry.
+						Budeme rádi, když svůj outfit sladíte do jemných, zemitých a přírodních tónů. Styl volte spíše neformální, ale elegantní.
+						
 					</p>
 					<p>
-					  Pánům bude slušet světlá košile, krémové nebo béžové kalhoty, klidně i vestička nebo
-					  sako. Kravata není nutností – důležitá je pohoda a úsměv 😊
+					Dámy mohou zvolit šaty, sukně nebo elegantní kalhoty v jemných odstínech zelené, krémové či zlatavé. Klidně ale sáhněte i po sytější smaragdové, ta se k našemu stylu krásně hodí.
 					</p>
-					<div className="flex flex-wrap justify-center items-center gap-4 mt-4 p-4 rounded-xl bg-white shadow">
-						<div className="w-14 h-14 rounded-full bg-sage-green" title="šalvějově zelená" />
-						<div className="w-14 h-14 rounded-full bg-teal" title="tyrkysová" />
-						<div className="w-14 h-14 rounded-full bg-viridian" title="viridiánová" />
-						<div className="w-14 h-14 rounded-full bg-almond" title="mandlová" />
-						<div className="w-14 h-14 rounded-full bg-champagne" title="žlutá" />
-						<div className="w-14 h-14 rounded-full bg-sand" title="béžová" />
+					<p>
+						Pánům bude slušet světlá košile, kalhoty v krémové, béžové nebo černé, případně doplněné vestičkou či sakem. Vítaná je i košile v zelených tónech. Kravata není nutná, hlavní je pohodlí, úsměv a dobrá nálada.😊
+					</p>
+
+					{/* DESKTOP VARIANTA */}
+					<div className="hidden md:flex flex-row justify-center gap-6 mt-4 p-4 rounded-xl bg-white shadow">
+					  <div className="flex flex-col items-center w-28">
+						<div className="w-14 h-14 rounded-full bg-sage-medium mb-1" />
+						<span className="text-xs text-gray-600 text-center whitespace-nowrap">světle šalvějová</span>
+					  </div>
+					  <div className="flex flex-col items-center w-28">
+						<div className="w-14 h-14 rounded-full bg-sage-green mb-1" />
+						<span className="text-xs text-gray-600 text-center whitespace-nowrap">šalvějová</span>
+					  </div>
+					  <div className="flex flex-col items-center w-28">
+						<div className="w-14 h-14 rounded-full bg-viridian mb-1" />
+						<span className="text-xs text-gray-600 text-center whitespace-nowrap">smaragdová</span>
+					  </div>
+					  <div className="flex flex-col items-center w-28">
+						<div className="w-14 h-14 rounded-full bg-almond mb-1" />
+						<span className="text-xs text-gray-600 text-center whitespace-nowrap">mandlová</span>
+					  </div>
+					  <div className="flex flex-col items-center w-28">
+						<div className="w-14 h-14 rounded-full bg-lightbrown mb-1" />
+						<span className="text-xs text-gray-600 text-center whitespace-nowrap">světle béžová</span>
+					  </div>
+					  <div className="flex flex-col items-center w-28">
+						<div className="w-14 h-14 rounded-full bg-goldenbrown mb-1" />
+						<span className="text-xs text-gray-600 text-center whitespace-nowrap">tmavě béžová</span>
+					  </div>
 					</div>
+
+					{/* MOBIL VARIANTA */}
+					<div className="block md:hidden">
+					  <div className="bg-white rounded-xl shadow mx-auto max-w-md p-4">
+						<div className="grid grid-cols-3 gap-x-5 gap-y-3 justify-items-center">
+						  <div className="flex flex-col items-center w-24">
+							<div className="w-10 h-10 rounded-full bg-sage-medium mb-1" />
+							<span className="text-[11px] text-gray-700 text-center leading-tight">světle šalvějová</span>
+						  </div>
+						  <div className="flex flex-col items-center w-24">
+							<div className="w-10 h-10 rounded-full bg-sage-green mb-1" />
+							<span className="text-[11px] text-gray-700 text-center leading-tight">šalvějová</span>
+						  </div>
+						  <div className="flex flex-col items-center w-24">
+							<div className="w-10 h-10 rounded-full bg-viridian mb-1" />
+							<span className="text-[11px] text-gray-700 text-center leading-tight">smaragdová</span>
+						  </div>
+						  <div className="flex flex-col items-center w-24">
+							<div className="w-10 h-10 rounded-full bg-almond mb-1" />
+							<span className="text-[11px] text-gray-700 text-center leading-tight">mandlová</span>
+						  </div>
+						  <div className="flex flex-col items-center w-24">
+							<div className="w-10 h-10 rounded-full bg-lightbrown mb-1" />
+							<span className="text-[11px] text-gray-700 text-center leading-tight">světle béžová</span>
+						  </div>
+						  <div className="flex flex-col items-center w-24">
+							<div className="w-10 h-10 rounded-full bg-goldenbrown mb-1" />
+							<span className="text-[11px] text-gray-700 text-center leading-tight">tmavě béžová</span>
+						  </div>
+						</div>
+					  </div>
+					</div>
+
+				<a href="" target="_blank" className="text-blue-600 underline"> Zde inspirace</a>.
 				</div>
 				</section>
 
@@ -258,13 +310,15 @@ export default function App() {
 				<h2 className="text-2xl font-serif text-emeraldDeep">Harmonogram dne</h2>
 				<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 					<ul className="list-disc list-inside space-y-1">
-					  <li><strong>11:00</strong> – Příjezd hostů, vítání, welcome drink</li>
-					  <li><strong>12:00</strong> – Obřad pod širým nebem</li>
-					  <li><strong>13:00</strong> – Společné focení a oběd</li>
-					  <li><strong>Odpoledne</strong> – Volná zábava, káva, dort, chill zóna</li>
-					  <li><strong>16:30</strong> – Raut plný dobrot</li>
-					  <li><strong>19:00</strong> – První svatební tanec</li>
-					  <li><strong>Večer</strong> – Párty a radovánky až do ranních hodin 🎉</li>
+					  <li><strong>11:00</strong> – Přivítání hostů</li>
+					  <li><strong>12:00</strong> – Svatební obřad</li>
+					  <li><strong>13:00</strong> – Oběd</li>
+					  <li><strong>14:00</strong> – Focení s novomanželi</li>
+					  <li><strong>15:00</strong> – Odpolední káva, svatební hry</li>
+					  <li><strong>17:00</strong> – Raut plný dobrot</li>
+					  <li><strong>19:00</strong> – První, druhý a třetí tanec</li>
+					  <li><strong>20:00</strong> – Taneční soutěž</li>
+					  <li><strong>21:00</strong> – Párty a radovánky až do ranních hodin 🎉</li>
 					</ul>
 				</div>
 				</section>
@@ -301,7 +355,7 @@ export default function App() {
 					  Největším darem pro nás je vaše přítomnost a to, že s námi prožijete tento den.
 					</p>
 					<p>
-					  Pokud byste nás přesto chtěli obdarovat, potěší nás finanční příspěvek na svatební cestu, nebo na něco krásného do našeho společného domova.
+					  Pokud byste nás přesto chtěli obdarovat, potěší nás finanční příspěvek do domácnosti, nebo na naší svatební cestu.
 					</p>
 					<p>
 					  Děkujeme, že jste součástí našeho příběhu 💕
@@ -314,10 +368,16 @@ export default function App() {
 				<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 					<p>Máte otázku, něco vám není jasné, nebo jste něco nenašli na webu či ve formuláři?</p>
 					<p>Ozvěte se nám kdykoliv:</p>
-					<ul className="list-disc list-inside">
-					  <li><strong>Tomáš</strong>: <a href="tel:+420724963979" className="text-blue-600 underline">+420 724 963 979</a></li>
-					  <li><strong>Veru</strong>: <a href="tel:+420776026838" className="text-blue-600 underline">+420 776 026 838</a></li>
-					</ul>
+					<div className="space-y-2 mt-2">
+						<div className="flex flex-row items-center">
+							<span className="font-semibold w-24">Tomáš:</span>
+							<a href="tel:+420724963979" className="underline text-blue-700 whitespace-nowrap">+420 724 963 979</a>
+						</div>
+						<div className="flex flex-row items-center">
+							<span className="font-semibold w-24">Veru:</span>
+							<a href="tel:+420776026838" className="underline text-blue-700 whitespace-nowrap">+420 776 026 838</a>
+						</div>
+					</div>
 				</div>
 				</section>
 				</div>
