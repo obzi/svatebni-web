@@ -165,9 +165,9 @@ export default function App() {
 						  <h2 className="text-2xl font-serif text-emeraldDeep">O nás</h2>
 							<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 								<img
-									src="./images/tom_veru.jpeg"
+									src="./images/tom_veru.jpg"
 									alt="Tomáš a Verča"
-									className="w-full max-h-[400px] object-cover object-[center_42%] rounded-xl shadow-md"
+									className="w-full max-h-[400px] object-cover object-[center_14%] rounded-xl shadow-md"
 								/>
 								<p>
 								Jsme Tom a Veru a za posledních pět let jsme nasbírali spoustu zážitků, razítek v pase a historek, které bychom možná neměli vyprávět nahlas. Spojuje nás chuť objevovat svět i sebe navzájem a smysl pro humor, bez kterého by to s námi nešlo. Společně jsme sjeli hory na prkně, rybníky na waku, oceán na surfu a půlku světa s batohem na zádech. Teď jsme se rozhodli naskočit do dalšího dobrodružství – manželství. A jak se známe, vezmeme to s nadhledem, humorem a nejspíš i helmou. Děkujeme, že jste u toho s námi.
@@ -262,15 +262,14 @@ export default function App() {
 						<h2 className="text-2xl font-serif text-emeraldDeep">Dresscode</h2>
 						<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 							<p>
-								Naše svatba se ponese v duchu lehké elegance a pohodové atmosféry.
-								Budeme rádi, když svůj outfit sladíte do jemných, zemitých a přírodních tónů. Styl volte spíše neformální, ale elegantní.
-								
+								Naše svatba se ponese v duchu lehké elegance a pohodové atmosféry. Pokud budete chtít sladit svůj outfit s celkovým laděním dne, budeme moc rádi.
+								Líbí se nám jemné, přírodní a zemité tóny. Styl spíše neformální, ale stále lehce elegantní.
 							</p>
 							<p>
-							Dámy mohou zvolit šaty, sukně nebo elegantní kalhoty v jemných odstínech zelené, krémové či zlatavé. Klidně ale sáhněte i po sytější smaragdové, ta se k našemu stylu krásně hodí.
+								Dámy mohou sáhnout po šatech, sukni nebo elegantních kalhotách v odstínech šalvějově zelené, sytější smaragdové nebo krémové.
 							</p>
 							<p>
-								Pánům bude slušet světlá košile, kalhoty v krémové, béžové nebo černé, případně doplněné vestičkou či sakem. Vítaná je i košile v zelených tónech. Kravata není nutná, hlavní je pohodlí, úsměv a dobrá nálada.😊
+								Pánům bude slušet světlá košile, může být i v zelených tónech. Kalhoty v béžové, hnědé nebo černé, případně doplněné vestičkou či sakem. Kravata není nutná, hlavní je pohodlí, úsměv a dobrá nálada.😊
 							</p>
 
 							{/* DESKTOP VARIANTA */}
@@ -361,7 +360,7 @@ export default function App() {
 						<h2 className="text-2xl font-serif text-emeraldDeep">Parkování</h2>
 						<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 						  <p>
-							Před areálem Dohnalova mlýna můžete pohodlně zaparkovat přímo u cesty. K dispozici je také rozlehlá louka, kde je dostatek místa pro auta všech hostů – a to bez nutnosti dlouhého hledání parkovacího místa.
+							Před areálem Dohnalova mlýna můžete pohodlně zaparkovat přímo u cesty. K dispozici je také rozlehlá louka, kde je dostatek místa pro auta všech hostů.
 						  </p>
 						  <img
 							src="./images/parkovani.jpg"
@@ -375,7 +374,7 @@ export default function App() {
 						<h2 className="text-2xl font-serif text-emeraldDeep">Sdílej fotky z našeho dne</h2>
 						<div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 							<p>
-							Fotky od fotografa budou krásné, ale ty nejúžasnější momentky často vznikají z rukou vás – našich hostů. Sdílet můžete nejen fotky, ale i videa. Na oplátku se s vámi rádi podělíme o ty oficiální.
+							Fotky od fotografa budou krásné, ale ty nejúžasnější momentky často vznikají z rukou vás, našich hostů. Sdílet můžete nejen fotky, ale i videa. Na oplátku se s vámi rádi podělíme o ty oficiální.
 							<br/>
 							Stačí použít <a href="https://drive.google.com/drive/folders/1x46_RCJCCX0LizBKDRZHFJRvwVXvZdjA?usp=sharing" target="_blank" className="text-blue-600 underline"> tento odkaz na náš sdílený Google Disk</a>.
 							</p>
