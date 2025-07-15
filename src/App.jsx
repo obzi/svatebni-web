@@ -135,29 +135,31 @@ export default function App() {
 							  ))}
 							</ul>
 						  </div>
-						  {menuOpen && (
-							<ul className="flex flex-col items-center gap-2 pb-4 md:hidden">
-							  {sections.map((s) => (
-								<li key={s.id}>
-								  <a
-									href={`#${s.id}`}
-									onClick={e => {
-									  e.preventDefault();
-									  if (window.location.hash !== "" && window.location.hash !== `#${s.id}`) {
-										window.location.href = "/#" + s.id;
-									  } else {
-										document.getElementById(s.id)?.scrollIntoView({ behavior: "smooth" });
-									  }
-									  setMenuOpen(false);
-									}}
-									className="text-sm text-emeraldDeep hover:underline"
-								  >
-									{s.label}
-								  </a>
-								</li>
-							  ))}
-							</ul>
-						  )}
+							{menuOpen && (
+							  <ul className="flex flex-col items-center gap-2 pb-4 md:hidden">
+								{sections.map((s) => (
+								  <li key={s.id}>
+									<a
+									  href={`#${s.id}`}
+									  onClick={e => {
+										e.preventDefault();
+										setMenuOpen(false);
+										setTimeout(() => {
+										  const el = document.getElementById(s.id);
+										  if (el) {
+											el.scrollIntoView({ behavior: "smooth", block: "start" });
+											history.replaceState(null, '', `#${s.id}`);
+										  }
+										}, 200);
+									  }}
+									  className="text-sm text-emeraldDeep hover:underline"
+									>
+									  {s.label}
+									</a>
+								  </li>
+								))}
+							  </ul>
+							)}
 						</nav>
 
 
@@ -176,10 +178,10 @@ export default function App() {
 						</section>
 
 						<section id="misto" className="scroll-mt-24 p-6 bg-sage-medium max-w-full md:max-w-3xl mx-auto rounded-xl space-y-4">
-						  <h2 className="text-2xl font-serif text-emeraldDeep">Místo konání</h2>
+						  <h2 className="text-2xl font-serif text-emeraldDeep">Místo a datum konání</h2>
 						  <div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 							  <p>
-								Svatba se koná na krásném a klidném místě s romantickou atmosférou v <strong>Dohnalově mlýně</strong> v Zástřizlech.
+								Svatba se koná ve čtvrtek 25. září na krásném a klidném místě s romantickou atmosférou v <strong>Dohnalově mlýně</strong> v Zástřizlech.
 								Tento mlýn obklopený přírodou je jako stvořený pro svatbu snů. 💐
 							  </p>
 							  <img
