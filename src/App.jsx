@@ -181,7 +181,7 @@ export default function App() {
 						  <h2 className="text-2xl font-serif text-emeraldDeep">Místo a datum konání</h2>
 						  <div className="p-6 space-y-4 pt-6 bg-sage-medium rounded-xl">
 							  <p>
-								Svatba se koná ve čtvrtek 25. září na krásném a klidném místě s romantickou atmosférou v <strong>Dohnalově mlýně</strong> v Zástřizlech.
+								Svatba se koná ve čtvrtek 25. 9. 2025 na krásném a klidném místě s romantickou atmosférou v <strong>Dohnalově mlýně</strong> v Zástřizlech.
 								Tento mlýn obklopený přírodou je jako stvořený pro svatbu snů. 💐
 							  </p>
 							  <img
